@@ -2,9 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Website</title>
+
+    <title>B Chihnita Reddy</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.jpg">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/8e6d06b86a.js" crossorigin="anonymous"></script>
 </head>
@@ -12,12 +15,13 @@
 <div id="header">
     <div class="container">
        <nav>
-        <img src="images/chr0.png" class=chr0">
+        <img src="images/logo.jpg" class="chr0" width="200" height="150">
+
         <ul id="sidemenu">
             <li><a href="#header">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#portFportfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
             <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
         </ul>
@@ -25,8 +29,27 @@
        </nav> 
        <div class="header-text">
         <p>UI/UX Designer</p>
-        <h1>Hi, I'm <span>B Chihnita Reddy</span><br>WEB DEVELLOPER</h1>
-       </div>
+        <h1>Hi, I'm <span class="auto-type1"></span></h1>
+        <h2>Tech Whisper:<span class="auto-type2"></span></h2>
+    </div>
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed1 = new Typed(".auto-type1", {
+            strings: ["B Chihnita Reddy"], // Your name here
+            typeSpeed: 150,
+            loop: true
+        });
+    </script>
+    <script>
+        var typed2 = new Typed(".auto-type2", {
+            strings: ["Translating complex concepts into seamless software."],
+            typeSpeed: 50, // Adjust the speed as desired
+            loop: true
+        });
+    </script>
+    
+    
     </div>
 </div>
 <!-- ------------about--------- -->
@@ -34,7 +57,7 @@
     <div class="container">
         <div class="row">
             <div class="about-col-1">
-                <img src="images/chihnita.jpg" alt="chihnita">
+                <img src="images/CRR.jpg" alt="chihnita">
             </div>
             <div class="about-col-2">
                 <h1 class="sub-title">About Me</h1>
@@ -48,23 +71,24 @@
                 </div>
                 <div class="tab-contents active-tab" id="skills">
                     <ul>
-                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
-                        <li><span>Web Development</span><br>Web App Development</li>
-                        <li><span>App Development</span><br>Building Android/ios apps</li>
+                        <li><span>Proficiency in programming languages</span><br>Java, Python, C</li>
+                        <li><span>Version control and collaboration</span><br>Git</li>
+                        <li><span>Agile and Scrum methodologies</span><br>Agile, Scrum</li>
+                        <li><span>Communication and collaboration</span><br>Effective communicator</li>
                     </ul>
                 </div>
                 <div class="tab-contents" id="experience">
-                    <sul>
-                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
-                        <li><span>Web Development</span><br>Web App Development</li>
-                        <li><span>App Development</span><br>Building Android/ios apps</li>
+                    <ul>
+                        <li><span>Web Development</span><br>DataChipTech<br>05-08-2023 to 04-11-2023</li>
+                        <li><span>Subject Matter Expert</span><br>RecruitNxt<br>18-01-2023 to 18-04-2023</li>
+                        <li><span>Content Writing</span><br>Team Everest<br>27-01-2022 to 10-02-2022</li>
                     </ul>
                 </div>
                 <div class="tab-contents" id="education">
                     <ul>
-                        <li><span>2019</span><br>Tenth-SSC</li>
-                        <li><span>2021</span><br>Intermediate-MPC</li>
-                        <li><span>2025</span><br>B.Tech-CSE(H)</li>
+                        <li><span>2019</span><br>Tenth-SSC<br>CGPA-9.7</li>
+                        <li><span>2021</span><br>Intermediate-MPC<br>Percentage-87</li>
+                        <li><span>2025</span><br>B.Tech-CSE(H)<br>CGPA-9.18</li>
                     </ul>
                 </div>
             </div>
@@ -79,20 +103,22 @@
             <div>
                 <i class="fa-solid fa-code"></i>
                 <h2>Web Design</h2>
-                <p>Good problem solver, able to multitask, and consistently finishes projects before their deadlines. I am a fast learner who can work with supervision and will always focus on meeting the company’s requirements</p>
-                <a href="#">Learn more</a>
+                <p>Crafting unique websites tailored to your brand, with a focus on stunning design and seamless user experience. 
+                    Specializing in responsive design, e-commerce solutions, and ongoing maintenance to ensure your online success.</p>                
+                <!-- <a href="#">Learn more</a> -->
             </div>
             <div>
                 <i class="fa-solid fa-crop-simple"></i>
-                <h2>UI/UX Design</h2>
-                <p>Good problem solver, able to multitask, and consistently finishes projects before their deadlines. I am a fast learner who can work with supervision and will always focus on meeting the company’s requirements</p>
-                <a href="#">Learn more</a>
+                <h2>WordPress Design</h2>
+                <p>Specializing in WordPress design services, I create custom websites tailored to your unique needs. 
+                    From elegant themes to responsive layouts, I ensure your site stands out while delivering a seamless user experience.</p>
+                <!-- <a href="#">Learn more</a> -->
             </div>
             <div>
                 <i class="fa-brands fa-app-store-ios"></i>
-                <h2>App Design</h2>
-                <p>Good problem solver, able to multitask, and consistently finishes projects before their deadlines. I am a fast learner who can work with supervision and will always focus on meeting the company’s requirements</p>
-                <a href="#">Learn more</a>
+                <h2>Software Developer</h2>
+                <p>I specialize in tailored software development, covering coding, testing, and deployment for high-quality solutions. Collaborating closely with clients, I ensure efficient realization of their vision, driving business objectives with innovative software.</p>
+                <!-- <a href="#">Learn more</a> -->
             </div>
         </div>
     </div>
@@ -103,35 +129,38 @@
         <h1 class="sub-title">My Work</h1>
         <div class="work-list">
             <div class="work">
-                <img src="images/wrr.jpg">
+                <img src="images/Cardio.jpeg">
                 <div class="layer">
-                    <h3>Social Media App</h3>
-                    <p>The app conecs you the talented people around the world.</p>
-                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <h3>Cardio Vision | HTML, CSS, JavaScript, Python, Flask, Machine Learning Algorithms</h3>
+                    <p>Crafted "Cardio Vision," a machine learning application achieving 89% accuracy in predicting heart disease
+                        risk; utilized extensive dataset training for personalized health insights.</p>
+                    <!-- <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a> -->
                 </div>
             </div>
             <div class="work">
-                <img src="images/wtt.jpg">
+                <img src="images/student.jpeg">
                 <div class="layer">
-                    <h3>Music App</h3>
-                    <p>The app conecs you the talented people around the world.</p>
-                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <h3>Student Detail Tracker | HTML, CSS, JavaScript</h3>
+                    <p>BEngineered a Student Detail Tracker application with HTML, CSS, and JavaScript, enhancing data
+                        management efficiency for X users by Z% and facilitating user access for educators.</p>
+                    <!-- <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a> -->
                 </div>
             </div>
             <div class="work">
-                <img src="images/wo.jpg">
+                <img src="images/Food.jpeg">
                 <div class="layer">
-                    <h3>Online Shopping App</h3>
-                    <p>The app conects you the talented people around the world.</p>
-                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <h3>Food Ordering System | HTML, CSS, JavaScript</h3>
+                    <p>Designed a customer-centric Food Ordering System with HTML, CSS, and JavaScript, optimizing the
+                        ordering process and enhancing customer satisfaction.</p>
+                    <!-- <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a> -->
                 </div>
             </div>
         </div>
-        <a href="#" class="btn">See More</a>
+        <!-- <a href="#" class="btn">See More</a> -->
     </div>
 </div>
 <!-- --------------------------contact--------------- -->
-<div class="contact">
+<div id="contact">
     <div class="container">
         <div class="row">
             <div class="contact-left">
@@ -144,12 +173,12 @@
                     <a href="B Chihnita Reddy#1667"><i class="fa-brands fa-discord"></i></a>
                     <a href="https://t.me/Chihnita1110"><i class="fa-brands fa-telegram"></i></i></a>
                 </div>
-                <a href="images/cv.pdf" download class="btn btn2">Download CV</a>
+                <a href="images/resume.pdf" download class="btn btn2">Download CV</a>
             </div>
             <div class="contact-right">
                 <form name="submit-to-google-sheet">
                     <input type="text" name="Name" placeholder="Your Name" required>
-                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
                     <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
                     <button type ="Submit"class="btn btn2">Submit</button>
                 </form>
