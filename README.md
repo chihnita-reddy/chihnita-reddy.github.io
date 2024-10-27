@@ -1,5 +1,5 @@
 <img  alt="portfolio" width="100%" src="./img/ProfileGif.gif">
-<h1 align="center">Hi 👋, I'm MIDHUN V S</h1>
+<h1 align="center">Hi 👋, I'm B Chihnita Reddy</h1>
 <h3 align="center">A passionate Web developer from India</h3>
 
 <img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/vsmidhun21/vsmidhun21/master/coding.gif">
@@ -8,16 +8,16 @@
 
 - 🌱 I’m currently learning **Full Stack Development**
 
-- 👨‍💻 My portfolio website [https://vsmidhun21.github.io](https://vsmidhun21.github.io)
+- 👨‍💻 My portfolio website [ https://chihnita-reddy.github.io/]( https://chihnita-reddy.github.io/)
 
 - 💬 Ask me about **Python, HTML, CSS, SQL**
 
-- 📫 How to reach me **midhun890390@gmail.com**
+- 📫 How to reach me **b.chihnitareddy.11@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/midhun-v-s" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="midhun-v-s" height="30" width="40" /></a>
-<a href="https://instagram.com/midhun_021" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="midhun_021" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/b-chihnita-reddy-4079741a9/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="midhun-v-s" height="30" width="40" /></a>
+<a href="[https://github.com/chihnita-reddy](https://github.com/chihnita-reddy)" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="midhun_021" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
